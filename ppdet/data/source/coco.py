@@ -55,6 +55,7 @@ class COCODataSet(DetDataset):
                  anno_path=None,
                  data_fields=['image'],
                  sample_num=-1,
+                 # "DEBUG" load_crowd=False,
                  load_crowd=True,
                  allow_empty=False,
                  empty_ratio=1.,
